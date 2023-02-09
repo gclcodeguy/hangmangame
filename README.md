@@ -31,13 +31,16 @@ Enhancements to the tutorial:
           npm option was more stable
           
           
-Learning Note - I went through this tutorial step by step, writing all the code (not copy & paste), so I could learn how an app like
+<b>Learning Note</b> - I went through this tutorial step by step, writing all the code (not copy & paste), so I could learn how an app like
 this could be compiled - which was necessary for me at this stage of my learning journey. It helped me work
 out how to combine all the concepts worked through more separately in the course so far.
 
 <b>How to Start?</b>
 
-Open the project in your IDE (e.g. clone the repo)
-Enter npm install in relevant app folder to ensure you have the correct node modules / dependencies installed
-Enter 'npm start' to launch the dev server
-Enter a letter to get started
+1. Open the project in your IDE (e.g. clone the repo)
+
+2. Enter npm install in relevant app folder to ensure you have the correct node modules / dependencies installed
+
+3. Enter 'npm start' to launch the dev server
+
+4. Enter a letter to get started
