@@ -7,12 +7,13 @@ import Word from './components/Word';
 import Notification from './components/Notification';
 import Popup from './components/Popup';
 import {showNotification as show} from './helpers/helpers';
+import randomWords from 'random-words'
 
 
 //import Popup from './components/Popup';
 //import Notification from './components/Notification';
 
-const words = ['javascript', 'programming', 'python', 'banana'];
+const words = (randomWords(10));
 let selectedWord = words[Math.floor(Math.random() * words.length)]; //select word to be guessed at random
 
 
@@ -82,7 +83,7 @@ function App() {
   //app display, passing required props to components
   return (
     <div className="App">
-        <Header />
+        <Header playAgain={playAgain} />
         <div className='game-container'>
             <Figure wrongLetters={wrongLetters} />
             <WrongLetters wrongLetters={wrongLetters} />

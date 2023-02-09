@@ -9,10 +9,10 @@ const Popup = ({ correctLetters, wrongLetters, selectedWord, setPlayable, playAg
 
     //interacts with the checkWin function in helper.js, via App.js
     if ( checkWin(correctLetters, wrongLetters, selectedWord) ==='win') {
-        finalMessage = 'Congratulations! You won!';
+        finalMessage = 'Legend Alert - you won!';
         playable = false;
     } else if (checkWin(correctLetters, wrongLetters, selectedWord) ==='lose') {
-        finalMessage = 'Unfortunately, you lost!';
+        finalMessage = 'That must have hurt, you lost!';
         finalMessageRevealWord = ` ...the word was: ${selectedWord}`;
         playable = false;
     }

@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #021a32;
+  background-color: rgb(92, 11, 11);
   color: #fff;
   font-family: monospace, Arial, Helvetica, sans-serif;
   display: flex;
@@ -21,7 +21,8 @@ body {
   margin: auto;
   height: 350px;
   width: 450px;
-  border:2px white solid;
+  border:2px black solid;
+  background-color: white;
 }
 
 .figure-container {
@@ -61,7 +62,7 @@ body {
 }
 
 .letter {
-  border-bottom: 3px solid #2980b9;
+  border-bottom: 3px solid black;
   display: inline-flex;
   font-size: 30px;
   align-items: center;
@@ -85,17 +86,18 @@ body {
 }
 
 .popup {
-  background: #2980b9;
+  background: black;
   border-radius: 5px;
   box-shadow: 0 15px 10px 3px rgba(0, 0, 0, 0.1);
   padding: 20px;
   text-align: center;
+  margin-top: 300px;
 }
 
 .popup button {
   cursor: pointer;
   background-color: #fff;
-  color: #2980b9;
+  color: black;
   border: 0;
   margin-top: 20px;
   padding: 12px 20px;
@@ -111,7 +113,7 @@ body {
 }
 
 .notification-container {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: black;
   border-radius: 10px 10px 0 0;
   padding: 15px 20px;
   position: absolute;
@@ -134,7 +136,7 @@ body {
   justify-content: space-evenly;
   align-items: center;
   padding: 2%;
-  border: 2px white dotted;
+  border: 2px black solid;
   margin: 0;
   margin-top: 10%;
 }
@@ -143,12 +145,17 @@ body {
   min-width: 150px;
   max-width: 150px;
 }
+.helpButton:hover {
+  background-color: darkgray;
+  font-size: larger;
+  color: white;
+}
 h5{
   text-align: center;
 }
 .instructionsModal {
   max-width: 400px;
-  border:2px gray solid;
+  border:2px black solid;
   padding: 1%;
   font-size: 0.7rem;
   display: none;

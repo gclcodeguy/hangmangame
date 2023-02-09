@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Header = () => {
+const Header = ({playAgain}) => {
   const [showModal, setShowModal] = useState(false);
 
   const toggleModal = () => {
@@ -10,9 +10,10 @@ const Header = () => {
   return (
     <>
       <div className='titleDiv'>
-        <h1 className='title'>Hangman</h1>
-        <p>Find the hidden word - enter a letter</p>
+        <h1 className='title'>Let's Play Hangman!</h1>
+        <p><em>Type letters, to find the hidden word...</em></p>
         <button className='helpButton' onClick={toggleModal}>Toggle Help</button>
+        <button className='helpButton' onClick={playAgain}>Restart Game</button>
         {/*The modal below is toggled visible / invisible by the button above
           with some conditional in-line styling*/}
         <div className='instructionsModal' style={{ display: showModal ? 'block' : 'none' }}>

@@ -9,7 +9,7 @@ const Notification = ({ showNotification }) => {
     // It shows a notification if the user enters a letter they previously entered 
     //The CSS is updated bring the notification visible on screen for 2 seconds
     <div className={`notification-container ${showNotification ? 'show' : ''}`}>
-      <p>You have already entered this letter</p>
+      <p>Letter already entered - try again!</p>
     </div>
   )
 }
