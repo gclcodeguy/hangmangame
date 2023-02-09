@@ -1,20 +1,43 @@
-What the project does?
+<b>What the project does?</b>
 
 The project provides a basic Hangman game in React.js
 
-Why was the project completed?
+<b>Why was the project completed?</b>
 
 The project was completed as part of the Hyperion Dev Web Development Course
 
-What stack does the project use?
+<b>What stack does the project use?</b>
 
-The project uses React.js, create-react-app and vanilla CSS. It makes use of State.
+The project uses React.js, create-react-app and vanilla JS and CSS.
 
-References?
+<b>References?</b>
 
-I completed the project in part using learnings from my Hyperion Dev course and from a tutorial called "Build Hangman With React".
-https://www.youtube.com/watch?v=jj0W8tYX_q8&list=WL&index=1
+I completed the project in part using learnings from my Hyperion Dev course 
+and from a tutorial called "Build Hangman With React".
 
-How to Start?
+Enhancements to the tutorial:
+1. Enhanced the UI, including color, format, notifications and pop up positioning
+2. Added new features including:<br>
 
-Open the project in your IDE and enter 'npm start'
+      a. Toggle instructions on / off button (using conditional formatting)
+      
+      b. Restart game button (using props)
+      
+      c. The hangman visual does not use the same method as the tutorial, I used gifs instead of the SVG which
+          required a re-write of the Figure component and logic across multiple components /helper functions
+          
+      d. The array of words for the game is no longer hard coded, I used npm install randomWord to generate
+          a random array of words to give the game more variety (I experimented with an API for this but the
+          npm option was more stable
+          
+          
+Learning Note - I went through this tutorial step by step, writing all the code (not copy & paste), so I could learn how an app like
+this could be compiled - which was necessary for me at this stage of my learning journey. It helped me work
+out how to combine all the concepts worked through more separately in the course so far.
+
+<b>How to Start?</b>
+
+Open the project in your IDE (e.g. clone the repo)
+Enter npm install in relevant app folder to ensure you have the correct node modules / dependencies installed
+Enter 'npm start' to launch the dev server
+Enter a letter to get started
