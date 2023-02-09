@@ -43,6 +43,7 @@ body {
   display: flex;
   flex-direction: column;
   text-align: right;
+  color:black;
 }
 
 .wrong-letters-container p {
