@@ -10,7 +10,7 @@ const Header = ({playAgain}) => {
   return (
     <>
       <div className='titleDiv'>
-        <h1 className='title'>Let's Play Hangman!</h1>
+        <h1 className='title'>Let's Play Hangman!!</h1>
         <p><em>Type letters, to find the hidden word...</em></p>
         <button className='helpButton' onClick={toggleModal}>Toggle Help</button>
         <button className='helpButton' onClick={playAgain}>Restart Game</button>
